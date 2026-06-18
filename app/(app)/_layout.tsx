@@ -1,0 +1,13 @@
+import { View, Text } from 'react-native'
+import React from 'react'
+import { Stack } from 'expo-router'
+
+const RootNav = () => {
+  return (
+    <Stack>
+        <Stack.Screen name='(public)' options={{headerShown: false}} />
+    </Stack>
+  )
+}
+
+export default RootNav
